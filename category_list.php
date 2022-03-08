@@ -23,7 +23,7 @@
     <form action="add_category.php" method="post"
           id="add_category_form">
 
-        <label>Name:</label>
+        <label></label>
         <input type="input" name="name">
         <input id="add_category_button" type="submit" value="Add">
     </form>
