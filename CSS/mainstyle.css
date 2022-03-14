@@ -1,3 +1,4 @@
+/*main styling sheet*/
 /*body styling*/
 body {
   font-family: "Open Sans", sans-serif;
@@ -12,7 +13,8 @@ body {
 .add-todo-input:focus,
 .edit-todo-input:focus {
   border: none !important;
-  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .view-opt-label,
@@ -35,3 +37,4 @@ body {
 .todo-item.editing .todo-actions .edit-icon {
   display: none !important;
 }
+/*# sourceMappingURL=mainstyle.css.map */
