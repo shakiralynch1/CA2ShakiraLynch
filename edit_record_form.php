@@ -33,12 +33,12 @@ include('includes/header.php');
                    value="<?php echo $records['name']; ?>">
             <br>
 
-            <label>List Price:</label>
+            <label>Date:</label>
             <input type="input" name="price"
                    value="<?php echo $records['price']; ?>">
             <br>
 
-            <label>Image:</label>
+            <label>Sort:</label>
             <input type="file" name="image" accept="image/*" />
             <br>            
             <?php if ($records['image'] != "") { ?>
