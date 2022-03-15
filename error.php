@@ -4,7 +4,7 @@
 <!-- the head section -->
 <head>
     <title>Calendar</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/ \" href="main.css">
 </head>
 
 <!-- the body section -->
