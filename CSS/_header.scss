@@ -1,6 +1,13 @@
 /*header scss*/
-#category-section{
+.category-section{
     list-style-type: none;
-    display: flex;
-  flex-direction: row;
+    display:inline;   
+    padding:10px;
+    margin:2%;
+}
+.delete_record_form{
+    padding:-10%;
+}
+.btn btn-primary{
+    margin:2%
 }

@@ -42,16 +42,24 @@ body {
   padding: 10%;
 }
 
+.buttons {
+  padding: 2px;
+}
+
 /*header scss*/
-#category-section {
+.category-section {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  display: inline;
+  padding: 10px;
+  margin: 2%;
+}
+
+.delete_record_form {
+  padding: -10%;
+}
+
+.btn btn-primary {
+  margin: 2%;
 }
 
 /*Table styling*/
@@ -75,5 +83,10 @@ td, th {
 
 .todo-title {
   text-decoration: none;
+}
+
+#add_category_button {
+  padding: 5px;
+  margin: 2%;
 }
 /*# sourceMappingURL=mainstyle.css.map */

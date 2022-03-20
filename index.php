@@ -66,7 +66,7 @@ include('add_record_form.php');
 <nav>
 <ul>
 <?php foreach ($categories as $category) : ?>
-<li id="category-section"><a   class="btn btn-outline-light" href=".?category_id=<?php echo $category['categoryID']; ?>">
+<li class="category-section"><a   class="btn btn-outline-dark" href=".?category_id=<?php echo $category['categoryID']; ?>">
 <?php echo $category['categoryName']; ?>
 </a>
 </li>
