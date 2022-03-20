@@ -24,22 +24,24 @@ include('includes/header.php');
                    value="<?php echo $records['recordID']; ?>">
 
             <label>Category ID:</label>
-            <input type="category_id" name="category_id"
+            <input type="category_id" name="category_id" class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" 
                    value="<?php echo $records['categoryID']; ?>">
             <br>
 
             <label>Name:</label>
-            <input type="input" name="name"
+            <input type="input" name="name" class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" 
                    value="<?php echo $records['name']; ?>">
             <br>
 
             <label>Date:</label>
             <input type="input" name="date"
+            class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" 
                    value="<?php echo $records['date']; ?>">
             <br>
 
             <label>Sort:</label>
             <input type="input" name="sort"
+            class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" 
                    value="<?php echo $records['sort']; ?>">
             <br>
 
@@ -51,7 +53,7 @@ include('includes/header.php');
             <?php } ?>
             
             <label>&nbsp;</label>
-            <input type="submit" value="Save Changes">
+            <input type="submit" class=" btn btn-primary" value="Save Changes">
             <br>
         </form>
         <p><a href="index.php">View Homepage</a></p>

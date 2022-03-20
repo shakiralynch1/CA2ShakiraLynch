@@ -47,11 +47,17 @@ body {
 }
 
 /*header scss*/
+.categories {
+  padding: 2%;
+}
+
 .category-section {
   list-style-type: none;
   display: inline;
   padding: 10px;
+  padding-top: 2px;
   margin: 2%;
+  margin-top: 2%;
 }
 
 .delete_record_form {
@@ -60,6 +66,10 @@ body {
 
 .btn btn-primary {
   margin: 2%;
+}
+
+.manage-categories {
+  padding-left: 8%;
 }
 
 /*Table styling*/
@@ -87,6 +97,14 @@ td, th {
 
 #add_category_button {
   padding: 5px;
+  margin: 2%;
+}
+
+#add_record_form {
+  padding: 2%;
+}
+
+label, input {
   margin: 2%;
 }
 /*# sourceMappingURL=mainstyle.css.map */

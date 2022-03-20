@@ -1,13 +1,21 @@
 /*header scss*/
+.categories{
+    padding:2%;
+}
 .category-section{
     list-style-type: none;
     display:inline;   
     padding:10px;
+    padding-top:2px;
     margin:2%;
+    margin-top:2%;
 }
 .delete_record_form{
     padding:-10%;
 }
 .btn btn-primary{
     margin:2%
+}
+.manage-categories{
+    padding-left:8%;
 }
