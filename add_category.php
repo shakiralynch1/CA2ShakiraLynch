@@ -14,6 +14,7 @@ if ($name == null) {
               VALUES (:name)";
     $statement = $db->prepare($query);
     $statement->bindValue(':name', $name);
+    $statement->bindValue(':date', $name);
     $statement->execute();
     $statement->closeCursor();
 

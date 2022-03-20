@@ -35,16 +35,16 @@ CREATE TABLE `records` (
 --
 
 INSERT INTO `records` (`recordID`, `categoryID`, `name`, `date`, `sort`) VALUES
-(1, 2, 'Shakiras Birthday ', '27/02/2022', 'due date'),
-(2, 4, 'PHP CRUD app project', '21/03/2022', 'added date'),
-(3, 1, 'Pizza Night', '15/03/2022', 'added date'),
-(4, 2, 'Ecoal Project', '06/03/2022', 'due date'),
-(5, 1, 'Easter', '17/04/2022', 'added date'),
-(6, 1, 'Halloween', '31/10/2022', 'added date'),
-(7, 1, 'New Years Eve', '31/12/2022', 'added date'),
-(8, 3, 'Full Stack Project', '14/03/2022', 'due date'),
-(9, 3, 'Work Staff Do', '16/05/2022', 'added date'),
-(10, 3, 'Dads Birthday', '31/08/2022', 'added date');
+(1, 2, 'Shakiras Birthday ', '2022/02/27', 'due date'),
+(2, 4, 'PHP CRUD app project', '2022/03/21', 'added date'),
+(3, 1, 'Pizza Night', '2022/03/15', 'added date'),
+(4, 2, 'Ecoal Project', '2022/06/03', 'due date'),
+(5, 1, 'Easter', '2022/04/17', 'added date'),
+(6, 1, 'Halloween', '2022/10/31', 'added date'),
+(7, 1, 'New Years Eve', '2022/12/31', 'added date'),
+(8, 3, 'Full Stack Project', '2022/03/14', 'due date'),
+(9, 3, 'Work Staff Do', '2022/05/16', 'added date'),
+(10, 3, 'Dads Birthday', '2022/08/31', 'added date');
 
 --
 -- Indexes for dumped tables

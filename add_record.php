@@ -1,9 +1,9 @@
 <?php
 
 // Get the product data
-$category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
+$category_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
 $name = filter_input(INPUT_POST, 'name');
-$price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
+$date = filter_input(INPUT_POST, 'date', FILTER_VALIDATE_FLOAT);
 
 // Validate inputs
 if ($category_id == null || $category_id == false ||
@@ -18,7 +18,7 @@ if ($category_id == null || $category_id == false ||
     error_reporting(~E_NOTICE); 
 
 // avoid notice
-
+/*
     $imgFile = $_FILES['image']['name'];
     $tmp_dir = $_FILES['image']['tmp_name'];
     echo $_FILES['image']['tmp_name'];
@@ -63,16 +63,13 @@ if ($category_id == null || $category_id == false ||
 
     // Add the product to the database 
     $query = "INSERT INTO records
-                 (categoryID, name, date, sort,image)
+                 (recordID, name, date)
               VALUES
-                 (:category_id, :name, :date, :sort, :image)";
+                 (:record_id, :name, :date)";
     $statement = $db->prepare($query);
-    $statement->bindValue(':category_id', $category_id);
+    $statement->bindValue(':record_id', $record_id);
     $statement->bindValue(':name', $name);
     $statement->bindValue(':date', $date);
-    $statement->bindValue(':sort', $sort);
-    $statement->bindValue(':image', $image);
-    $statement->execute();
     $statement->closeCursor();
 
     // Display the Product List page
