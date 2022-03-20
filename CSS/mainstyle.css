@@ -37,4 +37,43 @@ body {
 .todo-item.editing .todo-actions .edit-icon {
   display: none !important;
 }
+
+.add_category_button {
+  padding: 10%;
+}
+
+/*header scss*/
+.category-section {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/*Table styling*/
+.products-table {
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: .2em .5em .2em .5em;
+  vertical-align: top;
+  text-align: left;
+}
+
+.todo-title {
+  text-decoration: none;
+}
 /*# sourceMappingURL=mainstyle.css.map */

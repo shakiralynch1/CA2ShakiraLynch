@@ -15,7 +15,7 @@ ENGINE=InnoDB DEFAULT CHARSET=utf8;
 --
 
 INSERT INTO `categories` (`categoryID`, `categoryName`) VALUES
-(1, 'All'),
+(1, 'Fun'),
 (2, 'Completed'),
 (3, 'Active'),
 (4, 'Has Due Date');
@@ -27,24 +27,25 @@ CREATE TABLE `records` (
   `categoryID` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `date` date NOT NULL,
-  `sort` varchar(255) NOT NULL
+  `sort` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `records`
 --
 
-INSERT INTO `records` (`recordID`, `categoryID`, `name`, `date`, `sort`) VALUES
-(1, 2, 'Shakiras Birthday ', '2022/02/27', 'due date'),
-(2, 4, 'PHP CRUD app project', '2022/03/21', 'added date'),
-(3, 1, 'Pizza Night', '2022/03/15', 'added date'),
-(4, 2, 'Ecoal Project', '2022/06/03', 'due date'),
-(5, 1, 'Easter', '2022/04/17', 'added date'),
-(6, 1, 'Halloween', '2022/10/31', 'added date'),
-(7, 1, 'New Years Eve', '2022/12/31', 'added date'),
-(8, 3, 'Full Stack Project', '2022/03/14', 'due date'),
-(9, 3, 'Work Staff Do', '2022/05/16', 'added date'),
-(10, 3, 'Dads Birthday', '2022/08/31', 'added date');
+INSERT INTO `records` (`recordID`, `categoryID`, `name`, `date`, `sort`, `image`) VALUES
+(1, 2, 'Shakiras Birthday ', '2022/02/27', 'due date','birthday-cake.jpg'),
+(2, 4, 'PHP CRUD app project', '2022/03/21', 'added date','uni-work.jpg'),
+(3, 1, 'Pizza Night', '2022/03/15', 'added date','pizza.jpg'),
+(4, 2, 'Ecoal Project', '2022/06/03', 'due date','uni-work.jpg'),
+(5, 1, 'Easter', '2022/04/17', 'added date','easter.jpg'),
+(6, 1, 'Halloween', '2022/10/31', 'added date','halloween.jpg'),
+(7, 1, 'New Years Eve', '2022/12/31', 'added date','new-years.jpg'),
+(8, 3, 'Full Stack Project', '2022/03/14', 'due date','uni-work.jpg'),
+(9, 3, 'Work Staff Do', '2022/05/16', 'added date','work.jpg'),
+(10, 3, 'Dads Birthday', '2022/08/31', 'added date','birthday-cake.jpg');
 
 --
 -- Indexes for dumped tables

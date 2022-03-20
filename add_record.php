@@ -18,7 +18,7 @@ if ($category_id == null || $category_id == false ||
     error_reporting(~E_NOTICE); 
 
 // avoid notice
-/*
+
     $imgFile = $_FILES['image']['name'];
     $tmp_dir = $_FILES['image']['tmp_name'];
     echo $_FILES['image']['tmp_name'];
