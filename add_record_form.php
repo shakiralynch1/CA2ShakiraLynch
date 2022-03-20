@@ -22,12 +22,7 @@ include('includes/header.php');
         <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add new event name">
         <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add new event date">
         <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add the type of the event">
-        <label>Image:</label>
-            <input type="file" name="image" accept="image/*" />
-            <br>            
-            <?php if ($records['image'] != "") { ?>
-            <p><img src="image_uploads/<?php echo $records['image']; ?>" height="150" /></p>
-            <?php } ?>
+        
         <button input id="add_category_button" type="submit" value="Add" type="button" class="btn btn-primary">Add</button>
         
 

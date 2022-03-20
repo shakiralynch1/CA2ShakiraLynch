@@ -66,7 +66,7 @@ include('add_record_form.php');
 <nav>
 <ul>
 <?php foreach ($categories as $category) : ?>
-<li className="category-section"><a   class="btn btn-outline-light" href=".?category_id=<?php echo $category['categoryID']; ?>">
+<li id="category-section"><a   class="btn btn-outline-light" href=".?category_id=<?php echo $category['categoryID']; ?>">
 <?php echo $category['categoryName']; ?>
 </a>
 </li>
@@ -86,8 +86,6 @@ include('add_record_form.php');
 <th>Name</th>
 <th>Date</th>
 <th>Type</th>
-<th>Delete</th>
-<th>Edit</th>
 </tr>
 <?php foreach ($records as $record) : ?>
 <tr>
@@ -102,10 +100,11 @@ id="delete_record_form">
 value="<?php echo $record['recordID']; ?>">
 <input type="hidden" name="category_id"
 value="<?php echo $record['categoryID']; ?>">
-<input type="submit" class="btn btn-outline-danger" value="Delete">
+<div class="buttons"><input type="submit" class="btn btn-outline-danger" value="Delete">
 </form></td>
 <td><form action="edit_record_form.php" method="post"
 id="delete_record_form">
+</div>
 <input type="hidden" name="record_id"
 value="<?php echo $record['recordID']; ?>">
 <input type="hidden" name="category_id"
