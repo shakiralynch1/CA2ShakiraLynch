@@ -19,11 +19,12 @@ include('includes/header.php');
     <form action="add_category.php" method="post"
           id="add_category_form">
         <label></label>
-        <input type="input" name="name"><br/><br/>
-        <input type="input" name="date">
-        <input id="add_category_button" type="submit" value="Add">
+        <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add new event name">
+        <input class="form-control form-control-lg border-0 add-todo-input bg-transparent rounded" type="text" placeholder="Add new event dat">
+        <button input id="add_category_button" type="submit" value="Add" type="button" class="btn btn-primary">Add</button>
+        
 
     </form>
-                    <button type="button" class="btn btn-primary">Add</button>
+                   
                 </div>
 </div>

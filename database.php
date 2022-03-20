@@ -1,5 +1,5 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=shopca2';
+    $dsn = 'mysql:host=localhost;dbname=calendar';
     $username = 'root';
     $password = '';
 
