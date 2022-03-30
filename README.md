@@ -15,3 +15,14 @@ Below i will show some inspo for my application.
 ![image](https://user-images.githubusercontent.com/92158341/160836746-6a553fcf-496e-4f2c-b727-80d9f8bbb2d2.png)
 ![image](https://user-images.githubusercontent.com/92158341/160836807-4c928c53-d7bd-44ca-9fde-5eb6d3430fd2.png)
 
+#Instructions On how to use
+
+1.Instal Xampp
+
+2.Run Apache and SQL through the Xampp Server
+
+3.Next Create the records and categories database through phpmyadmin
+
+4.Make changes both on the Clientside and Serverside
+
+Download XAMPP
