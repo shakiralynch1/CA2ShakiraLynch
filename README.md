@@ -29,6 +29,6 @@ Download XAMPP
 
 # Examples of of my app
 
-"C:\Users\shaki\OneDrive\Desktop\DKITY2\SEM2\Server-Side Dev\first-ss.png"
+![image]("C:\Users\shaki\OneDrive\Desktop\DKITY2\SEM2\Server-Side Dev\first-ss.png")
 
 
