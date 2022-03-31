@@ -29,6 +29,6 @@ Download XAMPP
 
 # Examples of of my app
 
-![image]("C:\Users\shaki\OneDrive\Desktop\DKITY2\SEM2\Server-Side Dev\first-ss.png")
+<img width="931" alt="first-ss" src="https://user-images.githubusercontent.com/92158341/161029047-719b5423-61d2-4033-aaaf-d3d3824af28a.png">
 
 
